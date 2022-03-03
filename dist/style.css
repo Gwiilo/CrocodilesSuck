@@ -32,7 +32,7 @@ html {
   width: 96px;
   height: 96px;
   position: absolute;
-  -webkit-animation: rotation 0.3s infinite linear;
+  -webkit-animation: rotation 0.3s infinite reverse;
   transform-origin: bottom left;
   --border: 3px solid;
   --right: -96px;
@@ -43,7 +43,7 @@ html {
   width: 96px;
   height: 96px;
   position: relative;
-  -webkit-animation: smack 0.3s infinite linear;
+  -webkit-animation: smack 0.3s infinite reverse;
   transform-origin: bottom center;
   --object-position: 28px 28px;
   float: right;
